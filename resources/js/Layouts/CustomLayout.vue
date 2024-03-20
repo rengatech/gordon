@@ -1,6 +1,6 @@
 <template>
-    <Disclosure as="nav" class="bg-white shadow" v-slot="{ open }">
-      <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+    <Disclosure as="nav" class="bg-white" v-slot="{ open }">
+      <div class="mx-auto max-w-[90%] px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 justify-between">
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <!-- Mobile menu button -->
@@ -13,7 +13,7 @@
           </div>
           <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
             <div class="flex flex-shrink-0 items-center">
-              <img class="h-8 w-auto" src="images/Gordon_logo.png" alt="Your Company" />
+              <img class="h-10 w-auto" src="images/Gordon_logo.png" alt="Your Company" />
             </div>
             <div class="hidden sm:ml-6 sm:flex items-center sm:space-x-8">
               <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
@@ -59,9 +59,13 @@
         </div>
       </DisclosurePanel>
     </Disclosure>
+    <slot/>
+
+    <!-- <Footer/> -->
   </template>
   
   <script setup>
   import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
   import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
+
   </script>
