@@ -35,5 +35,16 @@ Route::get('/', function () {
     return Inertia::render('Home');
 })->name('home');
 
+Route::get('/itinerary', function () {
+    return Inertia::render('Itinerary');
+})->name('itinerary');
+
+Route::get('/hotel', function () {
+    return Inertia::render('Hotel');
+})->name('hotel');
+
+Route::get('/', function () {
+    return Inertia::render('Home');
+})->name('register');
 
 require __DIR__.'/auth.php';

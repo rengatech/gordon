@@ -3,7 +3,6 @@
 import HomePageSide from '@/Pages/HomePageSide.vue'
 </script>
 <template>
-  
   <div class="relative flex gap-[34%] bg-[url('images/banner.png')] h-screen bg-no-repeat bg-center bg-top">
     <div>
     <div class="absolute bg-white h-56 w-96 rounded-[30px] top-28 left-60">
