@@ -56,10 +56,6 @@ import HomePageSide from '@/Pages/HomePageSide.vue'
           <h2 class="mt-5 text-gray-600">Land Only - $2492</h2>
         </div>
       </div>
-
-     
-      
-
     </div>
   </div>
 
@@ -68,11 +64,4 @@ import HomePageSide from '@/Pages/HomePageSide.vue'
       </div>
   
   </div>
-
-
- 
- 
-
-
-
 </template>
