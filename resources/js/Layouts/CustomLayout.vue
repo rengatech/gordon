@@ -48,6 +48,7 @@
           </div>
         </div>
       </div>
+      
   
       <DisclosurePanel class="sm:hidden">
         <div class="space-y-1 pb-4 pt-2">
@@ -60,6 +61,8 @@
       </DisclosurePanel>
     </Disclosure>
     <slot/>
+
+
 
     <!-- <Footer/> -->
   </template>

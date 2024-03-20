@@ -14,7 +14,7 @@
     </div>
     <div class="absolute top-[36%] left-40">
         <div>
-            <img src="images/card.png"  class="relative space-y-20" />
+            <img src="images/card.png"  class="relative space-y-20"/>
         <div
           class="absolute top-20 left-20 flex justify-between gap-20 border-b-2 pb-10 border-[#014F99]"
         >
@@ -47,10 +47,6 @@
             <h2 class="mt-5 text-gray-600">Land Only - $2492</h2>
         </div>
       </div>
-    </div>
-    
-  </div>
-
-  
-  
+    </div>  
+ </div>
 </template>
