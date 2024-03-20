@@ -1,11 +1,11 @@
 <script setup>
 
-import HomePageSide from '@/Pages/HomePageSide.vue'
 </script>
 <template>
+  
   <div class="relative flex gap-[34%] bg-[url('images/banner.png')] h-screen bg-no-repeat bg-center bg-top">
     <div>
-    <div class="absolute bg-white h-56 w-96 rounded-[30px] top-28 left-60">
+    <!-- <div class="absolute bg-white h-56 w-96 rounded-[30px] top-28 left-60">
       <div class="text-center p-5 pt-10">
         <h1 class="font-bold text-3xl">Holy Land Experience</h1>
         <p class="text-gray-600 text-xl">November 18 - November 27, 2024</p>
@@ -15,7 +15,7 @@ import HomePageSide from '@/Pages/HomePageSide.vue'
           <p>Price per person</p>
         </button>
       </div>
-    </div>
+    </div> -->
     <div class="absolute top-[36%] left-40 ">
       <div>
         <img src="images/card.png" class="relative space-y-20" />
@@ -59,8 +59,9 @@ import HomePageSide from '@/Pages/HomePageSide.vue'
   </div>
 
   <div class="mt-[36%] mx-10 ">
-        <HomePageSide/>
-      </div>
+      
+    </div>
   
   </div>
+  
 </template>
