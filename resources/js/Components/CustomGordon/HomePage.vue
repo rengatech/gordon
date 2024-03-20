@@ -1,7 +1,7 @@
 <script setup>
 </script>
 <template>
-  <div class="relative bg-[url('images/banner.png')] h-screen bg-no-repeat bg-center bg-top">
+  <div class="relative bg-[url('images/banner.png')]  h-screen bg-no-repeat bg-center bg-top">
     <div class="absolute bg-white h-56 w-96 rounded-[30px] top-28 left-60">
       <div class="text-center p-5 pt-10">
         <h1 class="font-bold text-3xl">Holy Land Experience</h1>
