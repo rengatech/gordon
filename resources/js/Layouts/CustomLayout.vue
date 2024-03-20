@@ -29,10 +29,13 @@
           </div>
         </div>
       </div>
+      
   
       
     </Disclosure>
     <slot/>
+
+
 
     <!-- <Footer/> -->
   </template>
