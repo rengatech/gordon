@@ -3,7 +3,7 @@
 </script>
 <template>
   
-  <div class="relative flex gap-[34%] bg-[url('images/banner.png')] h-screen bg-no-repeat bg-center bg-top">
+  <div class="relative flex gap-[34%] bg-[url('images/banner.png')] bg-no-repeat bg-center bg-top">
     <div>
     <!-- <div class="absolute bg-white h-56 w-96 rounded-[30px] top-28 left-60">
       <div class="text-center p-5 pt-10">
@@ -16,7 +16,7 @@
         </button>
       </div>
     </div> -->
-    <div class="absolute top-[36%] left-40 ">
+    <div class="absolute top-[50%] left-40 ">
       <div>
         <img src="images/card.png" class="relative space-y-20" />
 
