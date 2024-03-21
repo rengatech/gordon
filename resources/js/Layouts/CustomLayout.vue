@@ -1,7 +1,9 @@
 <template>
 
     <Navbar/>
+    
     <slot/>
+
 
 
     <Footer/>
@@ -12,3 +14,5 @@
   import Navbar from '@/Components/CustomGordon/NavBar.vue'
   import Footer from '@/Components/CustomGordon/Footer.vue'
   </script>
+
+
