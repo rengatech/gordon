@@ -18,9 +18,7 @@
     </div> -->
     <div class="absolute top-[50%] left-40 ">
       <div>
-        <img src="images/card.png" class="relative space-y-20" />
-
-
+        <img src="images/card.png" />
         <div class="absolute top-20 left-20 flex justify-between gap-20 border-b-2 pb-10 border-[#014F99]">
           <div>
             <img src="images/Mask.png" />

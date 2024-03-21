@@ -4,18 +4,18 @@
      
        <HeroCard/>
        
-    <div class=" flex ml-[38%]">
+    <div class=" flex ml-[38%] gap-5">
       <div>
-        <img src="images/Mask group.png" class="w-80" />
+        <img src="images/Mask 1.png " class="w-80 rounded-[70px]" />
       </div>
       <div>
-        <img src="images/Mask group (1).png" class="w-80" />
+        <img src="images/Mask 2.png" class="w-80 rounded-[70px]" />
       </div>
       <div>
-        <img src="images/Mask group (2).png" class="w-80" />
+        <img src="images/Mask 3.png" class="w-80 rounded-[70px]" />
       </div>
     </div>
-    <div class="w-[55%] ml-[37%] mb-[20%]">
+    <div class="w-[55%] ml-[37%] mb-[20%] mt-20">
       <h1 class="text-3xl  font-semibold">Holy land</h1>
       <p class="mt-5 text-gray-600">
         The Holy Land is an area roughly located between the Mediterranean Sea and the eastern bank of the Jordan
