@@ -53,8 +53,13 @@ Route::get('/flight-details', function () {
 Route::get('/custom-login', function () {
     return Inertia::render('CustomProfile/Login');
 })->name('login');
+
 Route::get('/custom-register', function () {
     return Inertia::render('CustomProfile/Register');
+})->name('register');
+
+Route::get('/verfication-code', function () {
+    return Inertia::render('CustomProfile/VerficationCode');
 })->name('register');
 
 
