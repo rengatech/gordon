@@ -44,14 +44,20 @@ Route::get('/hotel', function () {
 })->name('hotel');
 
 
-Route::get('/register', function () {
-    return Inertia::render('Register');
-})->name('register');
-
 
 Route::get('/flight-details', function () {
     return Inertia::render('Flights-Details');
 })->name('flight-details');
+
+
+Route::get('/custom-login', function () {
+    return Inertia::render('CustomProfile/Login');
+})->name('login');
+Route::get('/custom-register', function () {
+    return Inertia::render('CustomProfile/Register');
+})->name('register');
+
+
 
 
 require __DIR__.'/auth.php';
