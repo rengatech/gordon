@@ -1,6 +1,6 @@
 <template>
   <Disclosure as="nav" class="bg-white" v-slot="{ open }">
-    <div class="mx-auto max-w-[90%] px-4 sm:px-6 lg:px-8">
+    <div class="max-w-[90%] ml-20 px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 justify-between items-center">
           <div class="flex flex-shrink-0 items-center">
             <img class="h-14 w-auto" src="images/Gordon_logo.png" alt="Your Company" />
@@ -14,8 +14,8 @@
             <Link
               href="/custom-login"
               class="rounded-full bg-[#379BD6] w-20 p-2 text-xs font-semibold text-center text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-           LOGIN
-          </Link>
+               LOGIN
+            </Link>
           </div>
         </div>
         

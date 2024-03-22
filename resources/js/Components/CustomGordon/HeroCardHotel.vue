@@ -8,7 +8,7 @@
         <p class="text-gray-600 text-xl">November 18 - November 27, 2024</p>
         <div class="flex gap-3">  
          <button class="rounded-full bg-[#379BD6] w-80 mt-4 p-4 text-xs font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Register</button>
-         <button class="rounded-full bg-[#379BD6] w-80 mt-4 p-4 text-xs font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Booking Hotel</button> 
+         <button class="rounded-full bg-[#014F99] w-80 mt-4 p-4 text-xs font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Booking Hotel</button> 
         </div>
       </div>
     </div>
