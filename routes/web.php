@@ -43,8 +43,15 @@ Route::get('/hotel', function () {
     return Inertia::render('Hotel');
 })->name('hotel');
 
+
 Route::get('/register', function () {
     return Inertia::render('Register');
 })->name('register');
+
+
+Route::get('/flight-details', function () {
+    return Inertia::render('Flights-Details');
+})->name('flight-details');
+
 
 require __DIR__.'/auth.php';

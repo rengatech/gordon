@@ -19,11 +19,11 @@
                 <p class="text-lg text-[#797984] font-normal">Check-Out: 2024-11-20</p>
               </div>
               <div>
-              <button class="rounded-full bg-[#014F99] w-30 h-7 mt-2 p-2  flex gap-2 text-xs font-semibold text-white">
+              <Link href="/flight-details" class="rounded-full bg-[#014F99] w-30 h-7 mt-2 p-2  flex gap-2 text-xs font-semibold text-white">
                 <img src="images/visitIcon.png" alt="">
                <h1>Visit Website</h1>
                
-                </button>
+            </Link>
               <div class="flex justify-between mt-14">
               <img src="images/Star.png">
               <img src="images/Star.png">
@@ -103,4 +103,5 @@
 import CustomLayout from "@/Layouts/CustomLayout.vue";
 import HomePage from "@/Components/CustomGordon/HomePage.vue";
 import HeroCardHotel from "@/Components/CustomGordon/HeroCardHotel.vue";
+import { Link } from '@inertiajs/vue3';
 </script>
