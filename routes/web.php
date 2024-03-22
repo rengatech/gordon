@@ -43,12 +43,20 @@ Route::get('/hotel', function () {
     return Inertia::render('Hotel');
 })->name('hotel');
 
+
+
+Route::get('/flight-details', function () {
+    return Inertia::render('Flights-Details');
+})->name('flight-details');
+
+
 Route::get('/custom-login', function () {
     return Inertia::render('CustomProfile/Login');
 })->name('login');
 Route::get('/custom-register', function () {
     return Inertia::render('CustomProfile/Register');
 })->name('register');
+
 
 
 
