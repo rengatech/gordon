@@ -14,8 +14,8 @@
             <Link
               href="/custom-login"
               class="rounded-full bg-[#379BD6] w-20 p-2 text-xs font-semibold text-center text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-           LOGIN
-          </Link>
+               LOGIN
+            </Link>
           </div>
         </div>
         
