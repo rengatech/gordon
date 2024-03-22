@@ -1,6 +1,6 @@
 <template>
   <Disclosure as="nav" class="bg-white" v-slot="{ open }">
-    <div class="mx-auto max-w-[90%] px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between md:justify-around md:flex-none mx-auto max-w-[90%] px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 justify-between items-center">
           <div class="flex flex-shrink-0 items-center">
             <img class="h-14 w-auto" src="images/Gordon_logo.png" alt="Your Company" />
@@ -19,7 +19,7 @@
           </div>
         </div>
         
-        <div class="-mr-2 flex items-center sm:hidden">
+        <div class="flex items-center sm:hidden">
           <!-- Mobile menu button -->
           <DisclosureButton class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
             <span class="absolute -inset-0.5" />
