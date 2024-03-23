@@ -25,6 +25,26 @@
           </div>
         </div>
       </div>
+      <div @click="toggleAccordion(index)" class="accordion-item">
+        <div class="accordion-title">
+          {{ item.title }}
+          <img src="images/passicon.png" alt="pass">
+          <span v-if="activeIndex === index" class="accordion-icon"></span>
+          <span v-else class="accordion-icon"></span>
+        </div>
+        <div v-show="activeIndex === index" class="accordion-content">
+          {{ item.content }}
+          <input class="rounded-full" placeholder="Select category *">
+          <input class="rounded-full" placeholder="How many passengers *">
+          <div class="item-end">
+          <Link
+              href="/custom-login"
+              class="rounded-full bg-[#014F99] w-40 p-2 text-xs font-semibold text-center text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+            next
+          </Link>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
