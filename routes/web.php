@@ -57,7 +57,9 @@ Route::get('/custom-register', function () {
     return Inertia::render('CustomProfile/Register');
 })->name('register');
 
-
+Route::get('/booking-details', function () {
+    return Inertia::render('CustomProfile/Booking-Details');
+})->name('booking-details');
 
 
 require __DIR__.'/auth.php';
