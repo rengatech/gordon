@@ -1,7 +1,6 @@
 <template>
   <CustomLayout>
     <HomePage />
-
     <HeroCard />
     <div class="h-screen">
       <div class=" flex ml-[38%] gap-5 mt-5">
