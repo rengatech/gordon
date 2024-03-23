@@ -1,22 +1,20 @@
 <script setup>
 </script>
 <template>
-  <div
-    class="relative flex bg-[url('images/banner.png')] bg-no-repeat bg-center"
-  >
-    <div>
-      <div class="absolute top-[50%] left-40">
+  <div class="relative flex sm:bg-center bg-[url('images/banner.png')] bg-no-repeat bg-center">
+    <div >
+      <div class="md:absolute top-36 left-2 md:top-[53%] md:left-40 ">
         <div>
           <img src="images/card.png" class="" />
 
           <div
-            class="absolute top-20 left-20 flex justify-between gap-20 border-b-2 pb-10 border-[#014F99]"
+            class="absolute top-2 left-2 md:top-20 md:left-20 flex justify-between gap-20 border-b-2 pb-10 border-[#014F99]"
           >
             <div>
-              <img src="images/Mask.png" />
+              <img src="images/Mask.png" class="w-50" />
             </div>
             <div>
-              <img src="images/logo.png" />
+              <img src="images/logo.png" class="w-26"/>
             </div>
           </div>
         </div>
@@ -53,6 +51,6 @@
       </div>
     </div>
 
-    <div class="mt-[36%] mx-10"></div>
+    <div class="md:mt-[36%] mx-10"></div>
   </div>
 </template>

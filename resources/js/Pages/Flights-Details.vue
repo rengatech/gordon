@@ -2,10 +2,11 @@
   <CustomLayout>
     <HomePage />
     <HeroCardHotel />
-    <div class="h-screen">
-      <div class="ml-[35%] font-bold text-4xl space-y-5">
-    frjkkmfrterkgkmj
-      </div>
+    <div class="">
+      <div class="ml-[35%] font-bold text-4xl space-y-10">
+    <h1 class="ml-96">Flights Details</h1>
+    <div> <img src="images/Flight-map.png" class="ml-14" /></div>
+    </div>
     </div>
   </CustomLayout>
 </template>

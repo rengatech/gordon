@@ -2,10 +2,12 @@
 </script>
 
 <template>
-<div class="mt-20  bg-zinc-800 ">
-        <div class="ml-60 p-8  text-gray-600">
+<div class="mt-[15%]  bg-zinc-800 ">
+        <div class="  justify-center items-center  p-8  text-gray-600">
         <p>Payment Policy Terms and conditions</p>
         <p>© 2018, All Rights Reserved.</p>
       </div>
     </div>
+
+    
 </template>

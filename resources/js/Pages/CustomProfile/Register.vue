@@ -24,7 +24,7 @@
                             placeholder="Your email *" />
                     </div>
                     <div class="border h-14 w-96  mt-10 pt-3 rounded-full bg-[#379BD6] ">
-                        <h1 class="text-center text-lg ml-5 text-white">CONTINUE *</h1>
+                        <Link href="/verfication-code" class="text-center text-lg ml-5 pl-28 text-white">CONTINUE *</Link>
                     </div>
                     <p class="text-xs mt-5 ml-1 text-[#014F99] flex gap-2">if you have already an account please login
                         from here
@@ -35,7 +35,7 @@
             </div>
 
         </div>
-        <Footer />
+        
     </CustomLayout>
 </template>
 
