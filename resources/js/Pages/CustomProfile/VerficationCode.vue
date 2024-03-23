@@ -4,8 +4,8 @@
         <HeroCardHotel />
       
     
-        <div class=" h-screen">
-            <div class="flex flex-col  justify-center items-center  text-2xl font-extrabold  ">
+        <div class=" h-screen " >
+            <div class="flex flex-col  justify-center items-center  mb-20 pl-96 text-2xl font-extrabold ">
                 <div class="text-sm text-[#014F99] mt-20 ml-3 ">
                  <p class="mb-4">Hello Mr. Dennis,</p>
                  
@@ -13,7 +13,7 @@
                  
                  <p class="mb-4">and we'll be happy to get it back</p>
                 </div>
-                <div>
+           
                     <div class="">
                         <input type="email" name="email" id="email"
                             class=" rounded-full border-2 w-96 py-1.5  text-[#797984] border-[#014F99] pl-6 placeholder:text-gray-400  text-sm "
@@ -28,7 +28,7 @@
                     </div>
                     
                 </div>
-            </div>
+        
 
         </div> 
         
