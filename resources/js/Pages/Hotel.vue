@@ -25,7 +25,7 @@
                
             </Link>
               <div class="flex justify-between mt-14">
-              <img src="images/Star.png" class="">
+              <img src="images/Star.png">
               <img src="images/Star.png">
               <img src="images/Star.png">
               <img src="images/Star.png">
