@@ -22,6 +22,7 @@ use Inertia\Inertia;
 //         'canRegister' => Route::has('register'),
 //         'laravelVersion' => Application::VERSION,
 //         'phpVersion' => PHP_VERSION,
+
 //     ]);
 // });
 
@@ -58,9 +59,15 @@ Route::get('/custom-register', function () {
     return Inertia::render('CustomProfile/Register');
 })->name('register');
 
+
+Route::get('/booking-details', function () {
+    return Inertia::render('CustomProfile/Booking-Details');
+})->name('booking-details');
+
 Route::get('/verfication-code', function () {
     return Inertia::render('CustomProfile/VerficationCode');
 })->name('register');
+
 
 
 
