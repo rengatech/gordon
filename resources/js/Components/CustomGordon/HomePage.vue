@@ -2,8 +2,8 @@
 </script>
 <template>
   <div class="relative flex sm:bg-center bg-[url('images/banner.png')] bg-no-repeat bg-center">
-    <div>
-      <div class="md:absolute top-36 left-2 md:top-[50%] md:left-40 ">
+    <div >
+      <div class="md:absolute top-36 left-2 md:top-[53%] md:left-40 ">
         <div>
           <img src="images/card.png" class="" />
 
@@ -11,10 +11,10 @@
             class="absolute top-2 left-2 md:top-20 md:left-20 flex justify-between gap-20 border-b-2 pb-10 border-[#014F99]"
           >
             <div>
-              <img src="images/Mask.png" class="w-24" />
+              <img src="images/Mask.png" class="w-50" />
             </div>
             <div>
-              <img src="images/logo.png" class="w-22"/>
+              <img src="images/logo.png" class="w-26"/>
             </div>
           </div>
         </div>
