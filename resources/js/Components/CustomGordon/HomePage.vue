@@ -1,7 +1,7 @@
 <script setup>
 </script>
 <template>
-  <div class="relative flex sm:bg-center bg-[url('images/banner.png')] bg-no-repeat bg-center">
+  <div class="relative flex sm:bg-center bg-[url('/images/banner.png')] bg-no-repeat bg-center">
     <div >
       <div class="md:absolute top-36 left-2 md:top-[53%] md:left-40 ">
         <div>
