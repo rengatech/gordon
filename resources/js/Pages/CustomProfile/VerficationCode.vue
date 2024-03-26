@@ -20,7 +20,7 @@
                             placeholder="Code"/>
                     </div>
                     <div class="border h-14 w-96  mt-10 pt-3 rounded-full bg-[#379BD6] ">
-                        <Link href="/verfication-code" class="text-center text-lg ml-5 pl-28 text-white">CONTINUE *</Link>
+                        <Link href="/booking-details" class="text-center text-lg ml-5 pl-28 text-white">CONTINUE *</Link>
                         <div class="text-sm mt-5 pl-5 text-[#014F99]">
                             <p>If you did not receive the email, check your spam and you can</p>
                             <p><a class="underline underline-offset-1 cursor-pointer">click here</a> to receive it again</p>
