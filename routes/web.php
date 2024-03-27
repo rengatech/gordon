@@ -66,7 +66,7 @@ Route::get('/booking-details', function () {
 
 Route::get('/verfication-code', function () {
     return Inertia::render('CustomProfile/VerficationCode');
-})->name('register');
+})->name('verfication-code');
 
 
 
