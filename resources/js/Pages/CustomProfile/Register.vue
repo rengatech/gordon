@@ -2,10 +2,12 @@
     <CustomLayout>
         <HomePage />
         <HeroCardHotel />
-        <div class="h-screen">
+        
+            <div class="mt-[55rem] md:mt-0">
+
             <div class="md:ml-[50%] text-2xl font-extrabold ">
                 <h1 class="ml-20">Set up your account</h1>
-                <div class=" flex  justify-center gap-1 mb-8">
+                <div class=" flex  gap-4 mb-8">
                     <div class="mt-10">
                         <input type="text" name="email" id="email"
                             class=" rounded-full border-2 py-1.5  text-[#797984] border-[#014F99] placeholder:text-gray-400  text-sm "
@@ -17,10 +19,10 @@
                             placeholder="Last Name*" />
                     </div>
                 </div>
-             
-                    <div class="flex justify-center ">
+                <div>
+                    <div class="">
                         <input type="email" name="email" id="email"
-                            class=" rounded-full border-2 w-[95%] py-1.5  text-[#797984] border-[#014F99] placeholder:text-gray-400  text-sm "
+                            class=" rounded-full border-2 w-96 py-1.5  text-[#797984] border-[#014F99] placeholder:text-gray-400  text-sm "
                             placeholder="Your email *" />
                     </div>
                     <div class="border h-14 w-96  mt-10 pt-3 rounded-full bg-[#379BD6] ">
@@ -31,10 +33,11 @@
                         <Link href="/custom-login"
                             class="text-center rounded-full p-0.5 bg-[#014F99] h-5 w-20 text-[#FFFFFF]">Login</Link>
                     </p>
-               
+                </div>
             </div>
-
         </div>
+
+        
         
     </CustomLayout>
 </template>

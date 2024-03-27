@@ -2,7 +2,8 @@
   <CustomLayout>
     <HomePage />
     <HeroCardHotel />
-    <div class="h-screen">
+    
+      <div class="mt-[55rem] md:mt-0">
       <div class="md:ml-[35%] font-bold text-4xl space-y-5">
         <h1 class="text-center ml-50">Hotels Details</h1>
         <div class="space-y-1">
@@ -96,7 +97,8 @@
         <!-- <div> <img src="images/Nof Ginosar Hotel.png" class="" /></div>
         <div> <img src="images/Dan Jerusalem.png" class="" /></div>-->
       </div>
-    </div>
+      </div>
+    
   </CustomLayout>
 </template>
   
