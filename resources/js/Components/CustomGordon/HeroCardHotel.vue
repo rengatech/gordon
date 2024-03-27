@@ -7,8 +7,8 @@ import { Link } from '@inertiajs/vue3';
         <h1 class="font-bold text-base md:text-3xl">Holy Land Experience</h1>
         <p class="text-gray-600 text-xs mt-4 md:text-xl">November 18 - November 27, 2024</p>
         <div class="flex gap-3">  
-         <Link href="/custom-register" class="rounded-full bg-[#379BD6] w-32 h-10 md:w-80 mt-6 md:p-3 text-xs font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Register</Link>
-         <Link href="/hotel" class="rounded-full bg-[#014F99] w-32 h-10 md:w-80 mt-6 md:p-3 text-xs font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Booking Hotel</Link> 
+         <Link href="/custom-register" class="rounded-full bg-[#379BD6] w-32 h-10 p-3 md:w-80 mt-6 md:p-3 text-xs font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Register</Link>
+         <Link href="/hotel" class="rounded-full bg-[#014F99] w-40 h-10 p-3 md:w-80 mt-6 md:p-3 text-xs font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Booking Hotel</Link> 
         
         </div>
       </div>
