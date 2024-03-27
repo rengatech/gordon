@@ -1,14 +1,14 @@
 <script setup>
 </script>
 <template>
-  <div class="relative flex  bg-[url('/images/banner.png')] bg-top h-[700px]  bg-no-repeat ">
-    <div >
+  <div class="relative flex  bg-[url('/images/banner.png')] bg-top h-[670px]  bg-no-repeat ">
+    <div>
       
         <div>
       <div class="md:absolute left-2 md:top-[50%] md:left-40">
         <div class="absolute  left-20 mt-20 border-b-2 pb-10 bg-white shadow-2xl w-96 bg-opacity-50 rounded-3xl">
           <div>
-            <div class="left-2 md:top-20 md:left-20 flex justify-between mt-4 p-3 border-b-2  border-[#014F99]">
+            <div class="left-2 md:top-20 md:left-20 flex justify-between mt-8 p-3 border-b-2  border-[#014F99]">
               <div>
                 <img src="images/Mask.png" class="w-50" />
               </div>

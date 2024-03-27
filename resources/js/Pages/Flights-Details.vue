@@ -3,9 +3,9 @@
     <HomePage />
     <HeroCardHotel />
     <div class="">
-      <div class="ml-[35%] font-bold text-4xl space-y-10">
-    <h1 class="ml-96">Flights Details</h1>
-    <div> <img src="images/Flight-map.png" class="ml-14" /></div>
+      <div class="ml-0 md:ml-[35%] font-bold text-4xl space-y-10">
+    <h1 class="ml-[30%] ">Flights Details</h1>
+    <div> <img src="images/Flight-map.png" class="ml" /></div>
     </div>
     </div>
   </CustomLayout>
