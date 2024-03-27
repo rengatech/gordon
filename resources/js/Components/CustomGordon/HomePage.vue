@@ -1,12 +1,11 @@
 <script setup>
 </script>
 <template>
-  <div class="relative flex  bg-[url('/images/banner.png')] bg-top h-[670px]  bg-no-repeat ">
-    <div>
-      
+  <div class="relative flex  bg-[url('/images/banner.png')] bg-top h-[700px] bg-no-repeat ">
+    <div >
         <div>
       <div class="md:absolute left-2 md:top-[50%] md:left-40">
-        <div class="absolute  left-20 mt-20 border-b-2 pb-10 bg-white shadow-2xl w-96 bg-opacity-50 rounded-3xl">
+        <div class="absolute  left-2 md:left-20 mt-[26rem] md:mt-20 border-b-2 pb-10 bg-white shadow-2xl w-[23rem] md:w-96 bg-opacity-90 rounded-3xl">
           <div>
             <div class="left-2 md:top-20 md:left-20 flex justify-between mt-8 p-3 border-b-2  border-[#014F99]">
               <div>
@@ -17,7 +16,7 @@
               </div>
             </div>
           </div>
-          
+          <div class="p-4">
           <h1 class="text-2xl font-bold mt-5">Pastor Mo Huggins</h1>
           <h2 class="mt-8">Price includes:</h2>
           <p class="max-w-xs text-left text-slate-500 text-bold">
@@ -43,6 +42,7 @@
             <h2 class="mt-5 text-gray-600">Land Only - $2492</h2>
           <div class="absolute inset-x-0 bottom-0 h-0">
           </div>
+        </div>
         </div>
       <!-- </div> -->
     </div>
