@@ -2,8 +2,8 @@
   <CustomLayout>
     <HomePage />
     <HeroCard />
-    <div class="h-screen">
-      <div class=" flex ml-[38%] gap-5 mt-5">
+    <div class="">
+      <div class=" flex ml-[38%] gap-5 top-[20%] ">
         <div>
           <img src="images/Mask 1.png " class="w-80 rounded-[70px]" />
         </div>
