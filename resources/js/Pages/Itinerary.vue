@@ -3,6 +3,9 @@
         <HomePage />
 
         <HeroCardHotel />
+        <div class="mt-[55rem] md:mt-0">
+           
+
         <div>
             <div class="md:ml-[40%] p-5">
                 <div class="mb-10">
@@ -273,6 +276,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </CustomLayout>
 </template>
 

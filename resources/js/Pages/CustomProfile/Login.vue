@@ -3,6 +3,7 @@
         <HomePage/>
         <HeroCardHotel/>
         <div class="h-screen">
+            <div class="mt-[55rem] md:mt-0">
         <div class="ml-[38%] md:ml-[60%] text-2xl font-extrabold ">
             LOGIN
             <div class="ml-[-120px] mt-8">
@@ -13,6 +14,7 @@
             <div class="border h-10 w-80 mt-10 pr-10  rounded-full bg-[#379BD6] ">
                 <h1 class=" mt-2 ml-10 text-center text-lg text-white ">CONTINUE *</h1>
             </div>
+        </div>
         </div>
         </div>
         
