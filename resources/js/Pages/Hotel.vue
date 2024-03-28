@@ -68,9 +68,9 @@
           <div class="mt-5 md:mt-2">
             <img src="images/Jerusalem.png" class="rounded-[70px]">
           </div>
-          <div class="border-2 border-[#014F99] h-56 w-[380px] md:w-[680px] p-6 rounded-[70px] mt-4">
+          <div class="border-2 border-[#014F99] h-56 w-[380px]  md:w-[680px] p-2 md:p-6 rounded-[70px] mt-4">
             <div class="mt-5 ml-7 flex justify-between">
-              <div>
+              <div class="md:bottom-[30%]">
                 <h1>Dan Jerusalem</h1>
                 <p class="text-lg text-[#797984] font-semibold">Lehi St 32, Jerusalem, 97856</p>
                 <p class="text-lg text-[#797984] font-normal">Check-In: 2024-11-22</p>
