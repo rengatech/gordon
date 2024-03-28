@@ -3,9 +3,9 @@
         <HomePage/>
         <HeroCardHotel/>
         <div class="h-screen">
-        <div class="ml-[60%] text-2xl font-extrabold ">
+        <div class="ml-[38%] md:ml-[60%] text-2xl font-extrabold ">
             LOGIN
-            <div class="ml-[-120px] -mt-8 ">
+            <div class="ml-[-120px] mt-8">
             <div class="h-10 w-80 mt-28 rounded-full ">
                 <input type="email" name="email" id="email" class=" rounded-full border-2 w-80 py-1.5  text-[#797984] border-[#014F99] placeholder:text-gray-400  text-sm " placeholder="Your email *" />
 

@@ -4,10 +4,10 @@
 
         <HeroCardHotel />
         <div>
-            <div class="ml-[40%]">
+            <div class="md:ml-[40%] p-5">
                 <div class="mb-10">
                     <div class="flex flex-row gap-[30%]">
-                        <h1 class="text-3xl text-center ml-40 top-[50%]">Day to Day itinerary</h1>
+                        <h1 class="  md:text-3xl  text-center md:ml-40  top-[60%] mt-0">Day to Day itinerary</h1>
                         <button class="rounded-full bg-[#014F99] w-30 h-8 mt-1 font-extrabold p-2 text-xs flex  gap-2  text-white">
                             <img src="images/download.png" class="">
                             <h1>Pdf Version</h1>
@@ -15,7 +15,7 @@
                         
                     </div>
                 </div>
-                <div class="flex flex-col  mt-5">
+                <div class="flex flex-col  mt-5 ">
                     <div class="flex">
                         <div class="border-2 border-[#014F99] h-24 w-28 rounded-3xl text-center ">
                             <div class="text-[#014F99] font-bold text-3xl">

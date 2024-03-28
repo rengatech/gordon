@@ -3,14 +3,14 @@
     <HomePage />
     <HeroCardHotel />
     <div class="h-screen">
-      <div class="ml-[35%] font-bold text-4xl space-y-5">
+      <div class="md:ml-[35%] font-bold text-4xl space-y-5">
         <h1 class="text-center ml-50">Hotels Details</h1>
         <div class="space-y-1">
-        <div class="flex gap-2 items-center mt-12">
-          <div>
-            <img src="images/GrandBeach.png" class="rounded-[70px]">
+        <div class="flex flex-col md:flex-row gap-2 items-center mt-12">
+          <div class="mt-5 md:mt-2">
+            <img src="images/GrandBeach.png" class="rounded-[70px] ">
           </div>
-          <div class="border-2 border-[#014F99] h-56 w-[680px] p-6 rounded-[70px] mt-4">
+          <div class="border-2 border-[#014F99] h-56 w-[380px] md:w-[680px] p-6 rounded-[70px] mt-4">
             <div class="mt-5 ml-7 flex justify-between">
               <div>
                 <h1>Grand Beach</h1>
@@ -19,7 +19,8 @@
                 <p class="text-lg text-[#797984] font-normal">Check-Out: 2024-11-20</p>
               </div>
               <div>
-              <Link href="/flight-details" class="rounded-full bg-[#014F99] w-30 h-7 mt-2 p-2  flex gap-2 text-xs font-semibold text-white">
+              <Link href="/flight-details" class="rounded-full bg-[#014F99]  w-30  h-7 mt-2 p-2  flex gap-2 text-xs font-semibold text-white">
+                
                 <img src="images/visitIcon.png" alt="">
                <h1>Visit Website</h1>
                
@@ -34,11 +35,11 @@
             </div>
            </div>
         </div>
-        <div class="flex gap-2 items-center">
-          <div>
+        <div class="flex  flex-col md:flex-row gap-2 items-center">
+          <div class="mt-5 md:mt-2">
             <img src="images/GinosarHotel.png" class="rounded-[70px]">
           </div>
-          <div class="border-2 border-[#014F99] h-56 w-[680px] p-6 rounded-[70px] mt-4">
+          <div class="border-2 border-[#014F99] h-56 w-[380px] md:w-[680px] p-6 rounded-[70px] mt-4">
             <div class="mt-5 ml-7 flex justify-between">
               <div>
                 <h1>Nof Ginosar Hotel</h1>
@@ -62,11 +63,11 @@
             </div>
            </div>
         </div>
-        <div class="flex gap-2 items-center">
-          <div>
+        <div class="flex  flex-col md:flex-row gap-2 items-center">
+          <div class="mt-5 md:mt-2">
             <img src="images/Jerusalem.png" class="rounded-[70px]">
           </div>
-          <div class="border-2 border-[#014F99] h-56 w-[680px] p-6 rounded-[70px] mt-4">
+          <div class="border-2 border-[#014F99] h-56 w-[380px] md:w-[680px] p-6 rounded-[70px] mt-4">
             <div class="mt-5 ml-7 flex justify-between">
               <div>
                 <h1>Dan Jerusalem</h1>
