@@ -2,8 +2,9 @@
   <CustomLayout>
     <HomePage />
     <HeroCardHotel />
-    <div class="ml-[30%] mr-[12%]">
-      <div class="accordion ml-[10%] font-bold text-xl space-y-5">
+    <div class="mt-[55rem] md:mt-0">
+    <div class="md:ml-[30%] mr-[12%]">
+      <div class="md:accordion ml-[10%] font-bold text-xl space-y-5">
         <div>
           <div @click="toggleAccordion(1)" class="accordion-item">
             <div class="border-8 w-full rounded-md">
@@ -15,9 +16,10 @@
           </div>
           <div v-show="activeIndex === 1" class="accordion-content">
             <!-- {{ item.content }} -->
-            <div class="flex gap-64">
-              <input class="rounded-full w-96" placeholder="Select category *" />
-              <input class="rounded-full w-96" placeholder="How many passengers *" />
+            <div class="md:flex gap-64 ">
+              <div><input class="rounded-full w-96" placeholder="Select category *" /></div>
+              <div><input class="rounded-full w-80" placeholder="How many passengers *" /></div>
+              
             </div>
             <div class="item-end">
               <Link
@@ -112,7 +114,7 @@
                 </div>
                 <div>
                   <p class="ml-2">Billing Address (inclode ZIP code)*</p>
-                  <input class="rounded-full w-[174%]" />
+                  <input class="rounded-full w-[138%]" />
                 </div>
               </div>
 
@@ -309,7 +311,7 @@
                   </div>
                   <div>
                     <p class="ml-2">Billing Address (inclode ZIP code)*</p>
-                    <input class="rounded-full w-[174%]" />
+                    <input class="rounded-full w-[140%]" />
                   </div>
                 </div>
 
@@ -773,8 +775,8 @@
               </div>
             </div>
           </div>
-          <p class="mt-8">•After your payment, the system will create a dedicated link for him so that he can enter and complete the</p>
-          <p class="ml-2"> registration with the information and if he does not complete the registration in the next 72 hours,</p> 
+          <p class="mt-8">•After your payment, the system will create a dedicated link for him so that he can enter and complete</p>
+          <p class="ml-2">the registration with the information and if he does not complete the registration in the next 72 hours,</p> 
           <p class="ml-2"> we will not be able to reserve a place for him</p>
           <div class="flex">
                 <Link
@@ -799,33 +801,102 @@
         </div>
 
         <div v-show="activeIndex === 5" class="accordion-content">
-          <h1>Select currency to pay</h1>
           <div>
-            <table style="width:100%">
-              <tr>
-                <th>Firstname</th>
-                <th>Lastname</th>
-                <th>Age</th>
-              </tr>
-              <tr>
-                <td>Jill</td>
-                <td>Smith</td>
-                <td>50</td>
-              </tr>
-              <tr>
-                <td>Eve</td>
-                <td>Jackson</td>
-                <td>94</td>
-              </tr>
-              <tr>
-                <td>John</td>
-                <td>Doe</td>
-                <td>80</td>
-              </tr>
-            </table>
+            <div class="flex gap-4">
+              <h1 class="text-[#797984]">Select currency to pay</h1>
+              <div class="rounded-lg top-4">
+                <select class="rounded-full w-32 text-[#797984]">
+                  <option value="volvo">USD</option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                </select>
+              </div>
+            </div>
+            <div>
+            </div>
+            <div class="mt-8">
+              <table class="table-auto">
+                <thead>
+                  <tr>
+                    <th class="w-[40%] border-2 border-black bg-gray-200 px-20 py-1">Product</th>
+                    <th class="w-[30%] border-2 border-black bg-gray-200 px-20 py-1">Amount</th>
+                    <th class="w-[30%] border-2 border-black bg-gray-200 px-20 py-1">Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="w-[40%] border-2 border-black bg-gray-200 px-20 py-1">Holy Land Experience</td>
+                    <td class="w-[30%] border-2 border-black bg-gray-200 px-20 py-1">3,500$ X 2</td>
+                    <td class="w-[30%] border-2 border-black bg-gray-200 px-20 py-1">7,000$</td>
+                  </tr>
+                  <tr>
+                    <td class="w-[40%] border-2 border-black bg-gray-200 px-20 py-1">Extra Conpigorsin</td>
+                    <td class="w-[30%] border-2 border-black bg-gray-200 px-20 py-1">0</td>
+                    <td class="w-[30%] border-2 border-black bg-gray-200 px-20 py-1">0$</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="mt-12">
+                <h1>Additional Activities/Services</h1>
+              </div>
+              <div class="mt-3">
+                <table class="table-auto">
+                  <thead>
+                    <tr>
+                      <th class="w-[40%] border-2 border-black bg-gray-200 px-20 py-1">Product</th>
+                      <th class="w-[30%] border-2 border-black bg-gray-200 px-20 py-1">Amount</th>
+                      <th class="w-[30%] border-2 border-black bg-gray-200 px-20 py-1">Total</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="w-[30%] border-2 border-black bg-gray-200 px-20 py-1">Bike trip in old city - Hardtail Mountain Bike</td>
+                      <td class="w-[30%] border-2 border-black bg-gray-200 px-20 py-1">45$ X 1</td>
+                      <td class="w-[30%] border-2 border-black bg-gray-200 px-20 py-1">45$</td>
+                    </tr>
+                    <tr>
+                      <td class="w-[40%] border-2 border-black bg-gray-200 px-20 py-1">Bike trip in old city - Electric Bicycle</td>
+                      <td class="w-[30%] border-2 border-black bg-gray-200 px-20 py-1">50$ X 1</td>
+                      <td class="w-[30%] border-2 border-black bg-gray-200 px-20 py-1">50$</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="mt-5">
+                <h1>Total payment: 7,095$</h1>
+                <p class="mt-5">Deposit payment: 1000$</p>
+              </div>
+              <div class="mt-10 ml-3">
+            <input type="checkbox" class="bg-[#379BD6]" />
+            <label class="ml-2 text-[#797984]">Online Payment</label>
+
+             <input type="checkbox" class="bg-[#797984] ml-48" />
+            <label class="ml-2 text-[#797984]">Payment Form</label>
+            </div>
+
+               <div class="mt-10 ml-3">
+            <input type="checkbox" class="bg-[#379BD6]" />
+            <label class="ml-2 text-[#797984]">Pay deposite</label>
+
+             <input type="checkbox" class="bg-[#797984] ml-[23%]" />
+            <label class="ml-2 text-[#797984]">Pay full amound</label>
+            </div>
+           
+          <div class="flex ">
+            <Link href="/custom-login"
+              class=" flex rounded-full bg-[#014F99] w-60 p-2 mt-7  text-xs font-semibold  justify-center  text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+            back</Link>
+            <Link href="/custom-payment"
+              class=" flex rounded-full bg-[#014F99] w-60 p-2 mt-7 text-xs font-semibold ml-[80%]  justify-center text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+            Pay Now</Link>
           </div>
+          
         </div>
       </div>
+    </div>
+    </div>
+    </div>
     </div>
   </CustomLayout>
 </template>
