@@ -3,7 +3,7 @@
         <HomePage />
         <HeroCardHotel />
 
-            <div class="h-screen">
+           
             <div class="mt-[55rem] md:mt-0">
 
             <div class="md:ml-[50%] text-2xl font-extrabold ">
@@ -37,7 +37,7 @@
                 </div>
             </div>
         </div>
-        </div>
+        
 
         
         
