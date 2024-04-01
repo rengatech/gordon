@@ -2,7 +2,7 @@
     <CustomLayout>
         <HomePage/>
         <HeroCardHotel/>
-        <div class="h-screen">
+        
             <div class="mt-[55rem] md:mt-0">
         <div class="ml-[38%] md:ml-[60%] text-2xl font-extrabold ">
             LOGIN
@@ -18,7 +18,7 @@
         </div>
         </div>
         
-    </div>
+    
         <Footer/>
     </CustomLayout>
   </template>

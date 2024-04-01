@@ -34,12 +34,13 @@
         <DisclosureButton as="a" href="/" class="block border-l-4 border-indigo-500 bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700">Home</DisclosureButton>
         <DisclosureButton as="a" href="/itinerary" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">Itinerary</DisclosureButton>
         <DisclosureButton as="a" href="/hotel" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">Hotel</DisclosureButton>
-        <DisclosureButton as="a" href="/register" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">Register</DisclosureButton>
-        <button
+        <DisclosureButton as="a" href="/custom-register" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">Register</DisclosureButton>
+        <Link
+            href="/custom-login"
             type="button"
-            class="rounded-full bg-[#379BD6] w-20 p-2 text-xs font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+            class="rounded-full bg-[#379BD6] w-20 p-2 pl-4 text-xs font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
           LOGIN
-          </button>
+      </Link>
       </div>
       
     </DisclosurePanel>

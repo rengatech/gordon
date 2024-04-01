@@ -57,7 +57,7 @@ Route::get('/custom-login', function () {
 
 Route::get('/custom-register', function () {
     return Inertia::render('CustomProfile/Register');
-})->name('register');
+})->name('custom-register');
 
 
 Route::get('/booking-details', function () {
@@ -68,9 +68,7 @@ Route::get('/verfication-code', function () {
     return Inertia::render('CustomProfile/VerficationCode');
 })->name('verfication-code');
 
-Route::get('/custom-payment', function () {
-    return Inertia::render('CustomProfile/PaymentDetails_2');
-})->name('custom-payment');
+
 
 
 
