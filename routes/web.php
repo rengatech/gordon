@@ -59,14 +59,19 @@ Route::get('/custom-register', function () {
     return Inertia::render('CustomProfile/Register');
 })->name('custom-register');
 
+Route::get('/verfication-code', function () {
+    return Inertia::render('CustomProfile/VerficationCode');
+})->name('verfication-code');
 
 Route::get('/booking-details', function () {
     return Inertia::render('CustomProfile/Booking-Details');
 })->name('booking-details');
 
-Route::get('/verfication-code', function () {
-    return Inertia::render('CustomProfile/VerficationCode');
-})->name('verfication-code');
+Route::get('/booking-details1', function () {
+    return Inertia::render('CustomProfile/Booking-Details1');
+})->name('booking-details1');
+
+
 
 
 

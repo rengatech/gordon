@@ -70,8 +70,6 @@
               </div>
               <div class="flex flex-wrap justify-between mt-5">
                 <div>
-                  <!-- <p class="ml-5">Gender*</p> -->
-                  <!-- <input  class="rounded-full w-"> -->
                   <div>
                     <p class="ml-0 md:ml-5">Gender*</p>
                     <div class="rounded">
@@ -121,7 +119,7 @@
               <div class="mt-8">
                 <p>Food restrictions:</p>
                 <form action="/action_page.php">
-                  <div class="flex-wrap gap-14 mt-2">
+                  <div class="flex-wrap md:flex gap-14 mt-2">
                     <div>
                       <input type="checkbox" class="bg-[#D9D9D9]" />
                       <label class="md:ml-2">Sugar Free</label>
@@ -216,12 +214,10 @@
                 <div class="md:border-b-4 w-[38%] mb-3 border-[#D9D9D9]"></div>
                 <div class="mt-5 font-bold text-black text-md">Information - Passenger #2</div>
                 <div class="md:border-b-4 w-[38%] mb-3 border-[#D9D9D9]"></div>
-                <!-- <div class="border-b-4 w-[40%] pb-12  border-[#D9D9D9]   ">
-                </div>-->
               </div>
 
               <div class>
-                <p class="md:ml-2 mt-5">Your Relationship*</p>
+                <p class="md:ml-2 mt-2">Your Relationship*</p>
                 <div class="md:flex">
                   <div class="rounded-lg">
                     <select class="rounded-full w-60 md:w-52">
@@ -231,7 +227,7 @@
                       <option value="audi">Audi</option>
                     </select>
                   </div>
-                  <div class="md:pl-64">
+                  <div class="mt-5 md:pl-64">
                     <input type="checkbox" class="bg-[#D9D9D9]" />
                     <label class="ml-2">We use the same contact information and account for payment</label>
                   </div>
@@ -267,8 +263,6 @@
                 </div>
                 <div class="flex flex-wrap justify-between mt-5">
                   <div>
-                    <!-- <p class="ml-5">Gender*</p> -->
-                    <!-- <input  class="rounded-full w-"> -->
                     <div>
                       <p class="md:ml-5">Gender*</p>
                       <div class="rounded">
@@ -318,7 +312,7 @@
                 <div class="mt-8">
                   <p>Food restrictions:</p>
                   <form action="/action_page.php">
-                    <div class="flex-wrap gap-14 mt-2">
+                    <div class="flex-wrap md:flex gap-14 mt-2">
                       <div>
                         <input type="checkbox" class="bg-[#D9D9D9]" />
                         <label class="ml-2">Sugar Free</label>
@@ -389,8 +383,6 @@
                   <div class="md:border-b-4 w-[38%] mb-3 border-[#D9D9D9]"></div>
                   <div class="mt-5 font-bold text-black text-md ml-2"> Information - Passenger #3</div>
                   <div class="md:border-b-4 w-[38%] mb-3 border-[#D9D9D9]"></div>
-                  <!-- <div class="border-b-4 w-[40%] pb-12  border-[#D9D9D9]   ">
-                  </div>-->
                 </div>
                 <div class>
                   <p class="md:ml-2 mt-5">Your Relationship*</p>
@@ -403,7 +395,7 @@
                         <option value="audi">Audi</option>
                       </select>
                     </div>
-                    <div class="mt-2 md:pl-64">
+                    <div class="mt-5 md:pl-64">
                       <input type="checkbox" class="bg-[#D9D9D9]" />
                       <label
                         class="ml-2"
@@ -612,85 +604,146 @@
           </div>
         </div>
         <div v-show="activeIndex === 4" class="accordion-content">
-          <div class="flex gap-14 items-center">
+          <div class="md:flex gap-14">
             <div class="text-[#797984]">
               <p>Your details:</p>
             </div>
-            <div class="mt-14 ml-12 text-[#797984]">
+            <div class="md:ml-12 text-[#797984]">
               <p>Mr roi test (Male)</p>
-              <p>roitest@test.com, +972-544285963</p>
+              <p>roitest@test.com,</p> <p>+972-544285963</p>
               <p>Birth Date : 04-27-1975</p>
             </div>
-            <div class="ml-7 text-[#797984]">
+            <div class="mt-5 md:mt-0 md:ml-7 text-[#797984]">
               <p>Passport Details:</p>
             </div> 
-            <div class="mt-6 text-[#797984]">
+            <div class="text-[#797984]">
               <p>032288144</p>
               <p>Expire On: 04-27-2030</p>
             </div>
           </div>
-          <div class="flex gap-16 items-center">
+          <div class="mt-5 md:flex gap-16">
             <div class="text-[#797984]">
               <p>room:</p>
             </div>
-            <div class="mt-14 ml-24 text-[#797984]">
+            <div class="md:ml-24 text-[#797984]">
               <p>Double</p>
               <p>king size bed</p>
               <p>Rooming with : Sharon</p>
             </div>
-            <div class="ml-36 text-[#797984]">
+            <div class="mt-5 md:mt-0 md:ml-8 text-[#797984]">
               <p>Food restrictions:</p>
             </div> 
             <div class="text-[#797984]">
               <p>No</p>
             </div>
           </div>
-          <div class="flex gap-12 items-center">
+          <div class="mt-5 md:mt-0 md:flex gap-12">
             <div class="text-[#797984]">
               <p>Billing Address:</p>
             </div>
-            <div class="mt-14 ml-7 text-[#797984]">
+            <div class="md:ml-7 text-[#797984]">
               <p>harel</p>
               <p>4253</p>
               <p>Israel</p>
             </div>
-            <div class="ml-80 text-[#797984]">
+            <div class="mt-5 md:mt-0 md:ml-52 text-[#797984]">
               <p>Emergency info:</p>
             </div> 
-            <div class="mt-6 text-[#797984]">
+            <div class="md:ml-4 text-[#797984]">
               <p>Name</p>
               <p>phoneMobile</p>
               <p>(Relationship)</p>
             </div>
           </div>
-          <div class="flex gap-2 items-center">
+          <div class="mt-5 md:mt-0 md:flex gap-2">
             <div class="text-[#797984]">
               <p>Bike trip in the old city:</p>
               <p>Details:</p>
             </div>
-            <div class="mt-8 text-[#797984]">
+            <div class="md:mt-8 text-[#797984]">
               <p>Electric Bicycle</p>
               <p>Height 180 cm</p>
               <p>Additional payment $50</p>
             </div>
           </div>
-          <div class="left-2 md:top-20 md:left-20 flex justify-between md:mt-4 mt-2 p-3 border-b-4"></div>
-          <div class="flex gap-8 items-center">
+          <div class="left-2 md:top-20 md:left-20 flex justify-between p-3 border-b-4"></div>
+          <div class="mt-5 md:flex gap-1">
             <div class="text-[#797984]">
               <p>Sharon details:</p>
             </div>
-            <div class="mt-14 ml-20 text-[#797984]">
+            <div class="md:ml-20 text-[#797984]">
               <p>Ms Sharon test (Female)</p>
-              <p>roitest@test.com, +972-544285963</p>
+              <p>roitest@test.com,</p> <p>+972-544285963</p>
               <p>Birth Date:04-27-1975</p>
             </div>
-            <div class="ml-20 text-[#797984]">
+            <div class="mt-5 md:mt-0 md:ml-20 text-[#797984]">
               <p>Passport Details:</p>
             </div> 
-            <div class="mt-6 text-[#797984]">
+            <div class="md:ml-16 text-[#797984]">
               <p>032288144</p>
               <p>Expire On:04-27-2030</p>
             </div>
+          </div>
+          <div class="mt-5 md:mt-0 md:flex gap-16">
+            <div class="text-[#797984]">
+              <p>room:</p>
+            </div>
+            <div class="md:ml-24 text-[#797984]">
+              <p>Double</p>
+              <p>king size bed</p>
+              <p>Rooming with : Roi</p>
+            </div>
+            <div class="mt-5 md:mt-0 md:ml-20 text-[#797984]">
+              <p>Food restrictions:</p>
+            </div> 
+            <div class="text-[#797984]">
+              <p>No</p>
+            </div>
+          </div>
+          <div class="mt-5 md:mt-0 md:flex gap-2">
+            <div class="text-[#797984]">
+              <p>Bike trip in the old city:</p>
+              <p>Details:</p>
+            </div>
+            <div class="md:mt-8 text-[#797984]">
+              <p>Hardtail Mountain Bike</p>
+              <p>Height 171 cm</p>
+              <p>Additional payment $45</p>
+            </div>
+          </div>
+          <div class="left-2 md:top-20 md:left-20 flex justify-between md:mt-4 p-3 border-b-4"></div>
+          <div class="mt-5 md:flex gap-24">
+            <div class="text-[#797984]">
+              <p>Friend details:</p>
+            </div>
+            <div class="text-[#797984]">
+              <p>Ms Friend test(Female)</p>
+              <p>Friend@test.com,</p> <p>+972-544285963</p>
+            </div>
+          </div>
+          <div class="mt-5 md:mt-0 md:flex gap-2">
+            <div class="text-[#797984]">
+              <p>Bike trip in the old city:</p>
+              <p>Details:</p>
+            </div>
+            <div class="md:mt-8 text-[#797984]">
+              <p>Hardtail Mountain Bike</p>
+              <p>Height 171 cm</p>
+              <p>Additional payment $45</p>
+            </div>
+          </div>
+          <div class="mt-5">
+            <p>. After your payment, the system will create a dedicated link for him so that he can enter and complete the registration with the information and if he does not complete the registration in the next 72 hours, we will not be able to reserve a place for him</p>
+          </div>
+          <div class="flex">
+            <Link
+              href="/custom-login"
+              class="flex rounded-full bg-[#014F99] w-60 p-2 mt-7 text-xs font-semibold justify-center text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            >back</Link>
+            <Link
+              href="/custom-login"
+              class="flex rounded-full bg-[#014F99] w-60 p-2 mt-7 text-xs font-semibold ml-[40%] md:ml-[80%] justify-center text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            >next</Link>
           </div>
         </div>
         
@@ -983,8 +1036,8 @@
             <Link href="/custom-login"
               class=" flex rounded-full bg-[#014F99] w-60 p-2 mt-7  text-xs font-semibold  justify-center  text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
             back</Link>
-            <Link href="/custom-payment"
-              class=" flex rounded-full bg-[#014F99] w-60 p-2 mt-7 text-xs font-semibold ml-[80%]  justify-center text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+            <Link href="/booking-details1"
+              class=" flex rounded-full bg-[#014F99] w-60 p-2 mt-7 text-xs font-semibold ml-[40%] md:ml-[80%]  justify-center text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
             Pay Now</Link>
           </div>
           
@@ -993,8 +1046,6 @@
     </div>
     </div>
     </div>
-  
-  
   </CustomLayout>
 </template>
 
