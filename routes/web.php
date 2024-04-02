@@ -68,9 +68,7 @@ Route::get('/verfication-code', function () {
     return Inertia::render('CustomProfile/VerficationCode');
 })->name('verfication-code');
 
-Route::get('/custom-payment', function () {
-    return Inertia::render('CustomProfile/PaymentDetails_2');
-})->name('custom-payment');
+
 
 
 
