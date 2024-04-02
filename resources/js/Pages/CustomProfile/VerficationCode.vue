@@ -5,7 +5,7 @@
       
     
         
-            <div class="mt-[55rem] md:mt-0">
+            <div class="mt-[55rem] md:mt-0  h-[150px]">
             <div class="flex flex-col  justify-center items-center  mb-20  text-2xl font-extrabold ">
                 <div class="text-sm text-[#014F99] mt-20 ml-3 ">
                  <p class="mb-4">Hello Mr. Dennis,</p>
