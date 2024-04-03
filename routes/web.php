@@ -32,7 +32,7 @@ use Inertia\Inertia;
 //     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 // });
 
-Route::get('/', function () {
+Route::get('/home', function () {
     return Inertia::render('Home');
 })->name('home');
 
