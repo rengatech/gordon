@@ -14,7 +14,7 @@
           <img src="images/Mask 3.png" class="w-80 rounded-[70px]" />
         </div>
       </div>
-      <div class="md:w-[55%] p-5 md:ml-[37%] mb-[20%] mt-20">
+      <div class="md:w-[55%] p-5 md:ml-[37%] mb-[20%] md:mt-20 mt-18">
         <h1 class="text-3xl  font-semibold">Holy land</h1>
         <p class="mt-5 text-gray-600">
           The Holy Land is an area roughly located between the Mediterranean Sea and the eastern bank of the Jordan
