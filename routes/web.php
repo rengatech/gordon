@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -71,7 +72,7 @@ Route::get('/booking-details1', function () {
     return Inertia::render('CustomProfile/Booking-Details1');
 })->name('booking-details1');
 
-
+Route::post('/process_payment', [PaymentController::class, 'store']);
 
 
 
