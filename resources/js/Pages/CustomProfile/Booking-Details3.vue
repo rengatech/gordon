@@ -746,8 +746,167 @@
               >next</Link>
             </div>
           </div>
-
-          <div @click="toggleAccordion(5)" class="accordion-item">
+          
+            <!-- <div class="flex gap-40 items-center">
+              <div class="flex text-[#797984]">
+                <p>room:</p>
+              </div>
+              <div class="mt-14 text-[#797984]">
+               
+                  <p>Double</p>
+                  <p>King size bed</p>
+                  <p>Rooming with : Sharon</p>
+                
+              </div>
+  
+              <div class="text-[#797984]">
+                <p>Food restrictions:</p>
+                <div class="ml-60 -mt-6">
+                  <p>No</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="flex gap-80 items-center">
+              <div class="text-[#797984] mt-10">
+                <p>Billing Address:</p>
+                <div class="ml-44 -mt-6">
+                  <p>harel</p>
+                  <p>4253</p>
+                  <p>Israel</p>
+                </div>
+              </div>
+  
+              <div class="text-[#797984] mt-10">
+                <p>Emergency info:</p>
+                <div class="ml-60 -mt-6">
+                  <p>Name</p>
+                  <p>phoneMobile</p>
+                  <p>Relationship</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="flex justify-between">
+              <div class="text-[#797984] mt-10">
+                <p>Bike trip in the old city:</p>
+              </div>
+            </div>
+  
+            <div class="flex justify-between">
+              <div class="text-[#797984]">
+                <p>Details:</p>
+                <div class="ml-44 -mt-6">
+                  <p>Electric Bicycle</p>
+                  <p>Height 180 cm</p>
+                  <p>Additional payment $50</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="left-2 md:top-20 md:left-20 flex justify-between md:mt-8 mt-5 p-3 border-b-4"></div>
+            
+            <div class="flex gap-8 items-center mt-5">
+              <div class="text-[#797984]">
+                <p>Sharon details:</p>
+                <div class="ml-44 -mt-6">
+                  <p>Ms Sharon test (Female)</p>
+                  <p> roitest@test.com,  +972-544285963</p>
+                  <p>Birth Date : 04-27-1975</p>
+                </div>
+              </div>
+  
+              <div>
+                <div class="text-[#797984]">
+                  <p>Passport Details:</p>
+                  <div class="ml-60 -mt-6">
+                    <p>032288144</p>
+                    <p>Expire On: 04-27-2030</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="flex gap-40 items-center">
+              <div class="text-[#797984] mt-10">
+                <p>room:</p>
+                <div class="ml-44 -mt-6">
+                  <p>Double</p>
+                  <p>King size bed</p>
+                  <p>Rooming with : Roi</p>
+                </div>
+              </div>
+  
+              <div class="text-[#797984] mt-10 ml-10">
+                <p>Food restrictions:</p>
+                <div class="ml-60 -mt-6">
+                  <p>No</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="flex justify-between">
+              <div class="text-[#797984] mt-10">
+                <p>Bike trip in the old city:</p>
+              </div>
+            </div>
+  
+            <div class="flex justify-between">
+              <div class="text-[#797984]">
+                <p>Details:</p>
+                <div class="ml-44 -mt-6">
+                  <p>Hardtail Mountain Bike</p>
+                  <p>Height 171 cm</p>
+                  <p>Additional payment $45</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="left-2 md:top-20 md:left-20 flex justify-between md:mt-8 mt-5 p-3 border-b-4"></div>
+  
+            <div class="flex gap-8 items-center mt-5">
+              <div class="text-[#797984]">
+                <p>Friend details:</p>
+                <div class="ml-44 -mt-6">
+                  <p>Ms Friend test (Female)</p>
+                  <p>Friend@test.com,  +972-544285963</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="flex justify-between">
+              <div class="text-[#797984] mt-10">
+                <p>Bike trip in the old city:</p>
+              </div>
+            </div>
+  
+            <div class="flex justify-between">
+              <div class="text-[#797984]">
+                <p>Details:</p>
+                <div class="ml-44 -mt-6">
+                  <p>Hardtail Mountain Bike</p>
+                  <p>Height 171 cm</p>
+                  <p>Additional payment $45</p>
+                </div>
+              </div>
+            </div>
+            <p class="mt-8">•After your payment, the system will create a dedicated link for him so that he can enter and complete</p>
+            <p class="ml-2">the registration with the information and if he does not complete the registration in the next 72 hours,</p> 
+            <p class="ml-2"> we will not be able to reserve a place for him</p>
+            <div class="flex">
+                  <Link
+                    href="/custom-login"
+                    class="flex rounded-full bg-[#014F99] w-60 p-2 mt-7 text-xs font-semibold justify-center text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  >back</Link>
+                  <Link
+                    href="/custom-login"
+                    class="flex rounded-full bg-[#014F99] w-60 p-2 mt-7 text-xs font-semibold ml-[80%] justify-center text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  >next</Link>
+                </div>
+  
+            </div> -->
+  
+          <div @click="toggleAccordion(6)" class="accordion-item">
             <div class="border-8  w-full rounded-md">
               <div class="accordion-title w-full flex bg-gray-200 gap-2">
                 <img src="images/cardicon.png" class="w-8" />
@@ -755,36 +914,40 @@
               </div>
             </div>
           </div>
-  
-          <div v-show="activeIndex === 5" class="accordion-content">
-            <div className="flex">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
-                </svg>
-                <label className="sm:pt-1.5">
-                 Credit Card Number
-                </label>
-                <div className="mt-2 ml-14 sm:mt-0">
-                  <input type="text" className=" rounded-none w-96 py-1.5 text-black shadow-sm ring-1 ring-inset ring-gray-200 placeholder:text-gray-200 focus:ring-2 focus:ring-inset sm:max-w-xs sm:text-sm sm:leading-6"/>
-                </div>
-            </div>
-            <div class="grid grid-cols-4 mt-10">
+          <div v-show="activeIndex === 6" class="accordion-content">
+    
+    <div class="ml-4">
+        <h5 class="font-bold text-2xl md:text-4xl text-[#FF1010]">The payment was failed!</h5>
+        <p>Reason for payment failure</p>
+    </div>
 
-                <label>Expiration Date</label>
-                <select type="date" class="w-60"></select>
-                <select type="date" class="w-60"></select>
-            </div>
-          </div>
-        </div>
+    <div class="ml-4 ">
+        <p class="mt-12">To complete the registration, try again:</p>
+    </div>
+
+    <!-- <div class="ml-40 flex gap-12">  
+    <div class="border h-14 w-[40%]  mt-20 pt-3 rounded-full bg-[#379BD6] ">
+        <Link href="/booking-details3" class=" justify-items-start ml-10  mt-5 text-white">Return to credit information page</Link>
+    </div>
+    <div class="border h-14 w-[40%]  mt-20 pt-3 rounded-full bg-[#379BD6] ">
+        <Link href="/booking-details3" class=" justify-items-start ml-10  mt-5 text-white">Account Payable Concentration</Link>
+    </div> -->
+   <div class="flex flex-col md:flex-row md:ml-40 md:gap-12 text-lg">
+    <div class="border h-14 w-full md:w-2/5 mt-4 md:mt-20 pt-3 rounded-full bg-[#379BD6]">
+        <a href="/booking-details3" class="ml-2 md:ml-10 mt-1 md:mt-5 text-white">Return to credit information page</a>
+    </div>
+    <div class="border h-14 w-full md:w-2/5 mt-4 md:mt-20 pt-3 rounded-full bg-[#379BD6]">
+        <a href="/booking-details3" class="ml-2 md:ml-10 mt-1 md:mt-5 text-white">Account Payable Concentration</a>
+    </div>
+</div>
+    
+    
+    </div>
+    
       </div>
       </div>
-      
-
-
-
-
-
-
+      </div>
+    
     </CustomLayout>
   </template>
   
@@ -846,6 +1009,10 @@
   th,
   td {
     background-color: #f1eeee;
+  }
+
+  h5 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
   }
   </style>
   

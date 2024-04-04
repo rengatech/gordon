@@ -70,7 +70,13 @@ Route::get('/booking-details', function () {
 Route::get('/booking-details1', function () {
     return Inertia::render('CustomProfile/Booking-Details1');
 })->name('booking-details1');
+Route::get('/booking-details2', function () {
+    return Inertia::render('CustomProfile/Booking-Details2');
+})->name('booking-details2');
 
+Route::get('/booking-details3', function () {
+    return Inertia::render('CustomProfile/Booking-Details3');
+})->name('booking-details3');
 
 
 
