@@ -71,8 +71,18 @@ Route::get('/booking-details', function () {
 Route::get('/booking-details1', function () {
     return Inertia::render('CustomProfile/Booking-Details1');
 })->name('booking-details1');
+Route::get('/booking-details2', function () {
+    return Inertia::render('CustomProfile/Booking-Details2');
+})->name('booking-details2');
 
+<<<<<<< HEAD
 Route::post('/process_payment', [PaymentController::class, 'store']);
+=======
+Route::get('/booking-details3', function () {
+    return Inertia::render('CustomProfile/Booking-Details3');
+})->name('booking-details3');
+
+>>>>>>> 0826970fc078c83c7348bed78e44ca451664ed11
 
 
 
