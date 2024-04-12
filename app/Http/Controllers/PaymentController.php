@@ -17,7 +17,7 @@ class PaymentController extends Controller
             'total_amount' => $request->total_amount,
         ]);
 
-        return response()->json(['message' => 'Payment successful']);
+        return redirect()->route('thankyou');
 
 
     }

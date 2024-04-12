@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MailController;
 use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
@@ -71,16 +72,11 @@ Route::get('/booking-details', function () {
 Route::get('/booking-details1', function () {
     return Inertia::render('CustomProfile/Booking-Details1');
 })->name('booking-details1');
-Route::get('/booking-details2', function () {
-    return Inertia::render('CustomProfile/Booking-Details2');
-})->name('booking-details2');
+
+Route::get('/thankyou', function () {
+    return Inertia::render('Thankyou');
+})->name('thankyou');
 
 Route::post('/process_payment', [PaymentController::class, 'store']);
-
-
-
-
-
-
 
 require __DIR__.'/auth.php';
