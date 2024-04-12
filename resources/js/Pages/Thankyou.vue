@@ -747,165 +747,6 @@
           </div>
         </div>
         
-          <!-- <div class="flex gap-40 items-center">
-            <div class="flex text-[#797984]">
-              <p>room:</p>
-            </div>
-            <div class="mt-14 text-[#797984]">
-             
-                <p>Double</p>
-                <p>King size bed</p>
-                <p>Rooming with : Sharon</p>
-              
-            </div>
-
-            <div class="text-[#797984]">
-              <p>Food restrictions:</p>
-              <div class="ml-60 -mt-6">
-                <p>No</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex gap-80 items-center">
-            <div class="text-[#797984] mt-10">
-              <p>Billing Address:</p>
-              <div class="ml-44 -mt-6">
-                <p>harel</p>
-                <p>4253</p>
-                <p>Israel</p>
-              </div>
-            </div>
-
-            <div class="text-[#797984] mt-10">
-              <p>Emergency info:</p>
-              <div class="ml-60 -mt-6">
-                <p>Name</p>
-                <p>phoneMobile</p>
-                <p>Relationship</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex justify-between">
-            <div class="text-[#797984] mt-10">
-              <p>Bike trip in the old city:</p>
-            </div>
-          </div>
-
-          <div class="flex justify-between">
-            <div class="text-[#797984]">
-              <p>Details:</p>
-              <div class="ml-44 -mt-6">
-                <p>Electric Bicycle</p>
-                <p>Height 180 cm</p>
-                <p>Additional payment $50</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="left-2 md:top-20 md:left-20 flex justify-between md:mt-8 mt-5 p-3 border-b-4"></div>
-          
-          <div class="flex gap-8 items-center mt-5">
-            <div class="text-[#797984]">
-              <p>Sharon details:</p>
-              <div class="ml-44 -mt-6">
-                <p>Ms Sharon test (Female)</p>
-                <p> roitest@test.com,  +972-544285963</p>
-                <p>Birth Date : 04-27-1975</p>
-              </div>
-            </div>
-
-            <div>
-              <div class="text-[#797984]">
-                <p>Passport Details:</p>
-                <div class="ml-60 -mt-6">
-                  <p>032288144</p>
-                  <p>Expire On: 04-27-2030</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex gap-40 items-center">
-            <div class="text-[#797984] mt-10">
-              <p>room:</p>
-              <div class="ml-44 -mt-6">
-                <p>Double</p>
-                <p>King size bed</p>
-                <p>Rooming with : Roi</p>
-              </div>
-            </div>
-
-            <div class="text-[#797984] mt-10 ml-10">
-              <p>Food restrictions:</p>
-              <div class="ml-60 -mt-6">
-                <p>No</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex justify-between">
-            <div class="text-[#797984] mt-10">
-              <p>Bike trip in the old city:</p>
-            </div>
-          </div>
-
-          <div class="flex justify-between">
-            <div class="text-[#797984]">
-              <p>Details:</p>
-              <div class="ml-44 -mt-6">
-                <p>Hardtail Mountain Bike</p>
-                <p>Height 171 cm</p>
-                <p>Additional payment $45</p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="left-2 md:top-20 md:left-20 flex justify-between md:mt-8 mt-5 p-3 border-b-4"></div>
-
-          <div class="flex gap-8 items-center mt-5">
-            <div class="text-[#797984]">
-              <p>Friend details:</p>
-              <div class="ml-44 -mt-6">
-                <p>Ms Friend test (Female)</p>
-                <p>Friend@test.com,  +972-544285963</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex justify-between">
-            <div class="text-[#797984] mt-10">
-              <p>Bike trip in the old city:</p>
-            </div>
-          </div>
-
-          <div class="flex justify-between">
-            <div class="text-[#797984]">
-              <p>Details:</p>
-              <div class="ml-44 -mt-6">
-                <p>Hardtail Mountain Bike</p>
-                <p>Height 171 cm</p>
-                <p>Additional payment $45</p>
-              </div>
-            </div>
-          </div>
-          <p class="mt-8">•After your payment, the system will create a dedicated link for him so that he can enter and complete</p>
-          <p class="ml-2">the registration with the information and if he does not complete the registration in the next 72 hours,</p> 
-          <p class="ml-2"> we will not be able to reserve a place for him</p>
-          <div class="flex">
-                <Link
-                  href="/custom-login"
-                  class="flex rounded-full bg-[#014F99] w-60 p-2 mt-7 text-xs font-semibold justify-center text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >back</Link>
-                <Link
-                  href="/custom-login"
-                  class="flex rounded-full bg-[#014F99] w-60 p-2 mt-7 text-xs font-semibold ml-[80%] justify-center text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >next</Link>
-              </div>
-
-          </div> -->
-
         <div @click="toggleAccordion(5)" class="accordion-item">
           <div class="border-8  w-full rounded-md">
             <div class="accordion-title w-full flex bg-gray-200 gap-2">
@@ -914,135 +755,29 @@
             </div>
           </div>
         </div>
-
         <div v-show="activeIndex === 5" class="accordion-content">
-          <div>
-            <div class="flex gap-4">
-              <h1 class="text-[#797984]">Select currency to pay</h1>
-              <div class="rounded-lg top-4">
-                <select class="rounded-full w-32 text-[#797984]">
-                  <option value="volvo">USD</option>
-                  <option value="saab">Saab</option>
-                  <option value="opel">Opel</option>
-                  <option value="audi">Audi</option>
-                </select>
-              </div>
-            </div>
-            <div>
-            </div>
-            <div class="mt-8">
-                <table class="table-auto min-w-full">
-                  <thead>
-                    <tr class="bg-red-700">
-                      <th
-                        class="w-[40%] sm:w-[15%] md:w-[20%] lg:w-[40%] border-2 border-black bg-gray-200 md:px-4 pr-2 py-2"
-                      >Product</th>
-                      <th
-                        class="w-[30%] sm:w-[20%] md:w-[10%] lg:w-[30%] border-2 border-black bg-gray-200 md:px-4 pr-2 py-2"
-                      >Amount</th>
-                      <th
-                        class="w-[30%] sm:w-[15%] md:w-[10%] lg:w-[30%] border-2 border-black bg-gray-200 md:px-4 pr-2 py-2"
-                      >Total</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td
-                        class="w-[40%] sm:w-[30%] md:w-[40%] lg:w-[40%] border-2 border-black bg-gray-200 md:px-4 pr-2 py-2"
-                      >Holy Land Experience</td>
-                      <td
-                        class="w-[30%] sm:w-[40%] md:w-[30%] lg:w-[30%] border-2 border-black bg-gray-200 md:px-4 pr-2 py-2"
-                      >3,500$ X 2</td>
-                      <td
-                        class="w-[30%] sm:w-[30%] md:w-[30%] lg:w-[30%] border-2 border-black bg-gray-200 md:px-4 pr-2 py-2"
-                      >7,000$</td>
-                    </tr>
-                    <tr>
-                      <td
-                        class="w-[40%] sm:w-[30%] md:w-[40%] lg:w-[40%] border-2 border-black bg-gray-200 md:px-4 pr-2 py-2"
-                      >Extra Conpigorsin</td>
-                      <td
-                        class="w-[30%] sm:w-[40%] md:w-[30%] lg:w-[30%] border-2 border-black bg-gray-200 md:px-4 pr-2 py-2"
-                      >0</td>
-                      <td
-                        class="w-[30%] sm:w-[30%] md:w-[30%] lg:w-[30%] border-2 border-black bg-gray-200 md:px-4 pr-2 py-2"
-                      >0$</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="mt-12">
-                <h1>Additional Activities/Services</h1>
-              </div>
-              <div class="mt-8">
-                <table class="table-auto min-w-full">
-                  <thead>
-                    <tr class="bg-red-700">
-                      <th
-                        class="w-[40%] sm:w-[15%] md:w-[20%] lg:w-[40%] border-2 border-black bg-gray-200 md:px-4 pr-2 py-2"
-                      >Product</th>
-                      <th
-                        class="w-[30%] sm:w-[20%] md:w-[10%] lg:w-[30%] border-2 border-black bg-gray-200 md:px-4 pr-2 py-2"
-                      >Amount</th>
-                      <th
-                        class="w-[30%] sm:w-[15%] md:w-[10%] lg:w-[30%] border-2 border-black bg-gray-200 md:px-4 pr-2 py-2"
-                      >Total</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td
-                        class="w-[40%] sm:w-[30%] md:w-[40%] lg:w-[40%] border-2 border-black bg-gray-200 md:px-4 pr-2 py-2"
-                      >Bike trip in old city - Hardtail Mountain Bike</td>
-                      <td
-                        class="w-[30%] sm:w-[40%] md:w-[30%] lg:w-[30%] border-2 border-black bg-gray-200 md:px-4 pr-2 py-2"
-                      >45$ X 1</td>
-                      <td
-                        class="w-[30%] sm:w-[30%] md:w-[30%] lg:w-[30%] border-2 border-black bg-gray-200 md:px-4 pr-2 py-2"
-                      >45$</td>
-                    </tr>
-                    <tr>
-                      <td
-                        class="w-[40%] sm:w-[30%] md:w-[40%] lg:w-[40%] border-2 border-black bg-gray-200 md:px-4 pr-2 py-2"
-                      >Bike trip in old city - Electric Bicycle</td>
-                      <td
-                        class="w-[30%] sm:w-[40%] md:w-[30%] lg:w-[30%] border-2 border-black bg-gray-200 md:px-4 pr-2 py-2"
-                      >50$ X 1</td>
-                      <td
-                        class="w-[30%] sm:w-[30%] md:w-[30%] lg:w-[30%] border-2 border-black bg-gray-200 md:px-4 pr-2 py-2"
-                      >50$</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="mt-5">
-                <h1>Total payment: 7,095$</h1>
-                <p class="mt-5">Deposit payment: 1000$</p>
-              </div>
-              <div class="flex mt-10 ml-3">
-                <input type="checkbox" class="bg-[#379BD6] mt-2" />
-                <label class="ml-2 text-[#797984]">Online Payment</label>
-                <input type="checkbox" class="bg-[#797984] ml-[23%] mt-2" />
-                <label class="ml-2 text-[#797984]">Payment Form</label>
-              </div>
-              <div class="flex mt-10 ml-3">
-                <input type="checkbox" class="bg-[#379BD6] mt-2" />
-                <label class="ml-2 text-[#797984]">Pay deposite</label>
-                <input type="checkbox" class="bg-[#797984] ml-[23%] md:ml-[26%] mt-2" />
-                <label class="ml-2 text-[#797984]">Pay full amound</label>
-              </div>
-           
-          <div class="flex ">
-            <Link href="/custom-login"
-              class=" flex rounded-full bg-[#014F99] w-60 p-2 mt-7  text-xs font-semibold  justify-center  text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-            back</Link>
-            <Link href="/booking-details1"
-              class=" flex rounded-full bg-[#014F99] w-60 p-2 mt-7 text-xs font-semibold ml-[40%] md:ml-[80%]  justify-center text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-            Pay Now</Link>
-          </div>
-          
-        </div>
-      </div>
+    <div class="ml-4">
+      <h5 class="font-bold text-2xl md:text-4xl">The payment was succesful!</h5>
+      <p> See you at {Evet Name}  blah blah....</p>
+  </div>
+
+  <div class="ml-4">
+      <P class="mt-12">If there are registrants who need to complete the procedure:</P>
+      <p>We have sent to {name } Invitation link to complete the registration.</p>
+      <p>we recommend at the same time that you also send the following link <a class="underline underline-offset-1">email, WhatsApp.</a></p>
+  </div>
+  
+  <div class="ml-4">
+      <p class="mt-12">It is important to remember that the registration must be completed in the next 72 hours to keep the place</p>
+  </div>
+
+  <div class="ml-0 md:ml-72">  
+  <div class="border h-14  w-80 md:w-96  mt-20 pt-3 rounded-full bg-[#379BD6] ">
+      <Link href="/home" class="text-center text-md mt-3  pl-20 md:ml-3 md:pl-24 text-white">Back to home page</Link>
+  </div>
+  </div>
+  
+    </div>
     </div>
     </div>
     </div>
@@ -1107,5 +842,9 @@ td {
 th,
 td {
   background-color: #f1eeee;
+}
+
+h5 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
 </style>

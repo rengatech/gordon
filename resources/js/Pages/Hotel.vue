@@ -20,12 +20,12 @@
                 <p class="text-lg text-[#797984] font-normal">Check-Out: 2024-11-20</p>
               </div>
               <div>
-              <Link href="/flight-details" class="rounded-full bg-[#014F99] w-28  md:w-30 mt-2 h-7  p-2  flex gap-2 text-xs font-semibold text-white">
+              <a href="https://www.grandhotels-israel.com/grand-beach-hotel-tel-aviv" class="rounded-full bg-[#014F99] w-28  md:w-30 mt-2 h-7  p-2  flex gap-2 text-xs font-semibold text-white">
                 
                 <img src="images/visitIcon.png" alt="">
                <h1>Visit Website</h1>
                
-               </Link>
+              </a>
               <div class="flex justify-between mt-20 md:mt-14">
               <img src="images/Star.png">
               <img src="images/Star.png">
@@ -49,11 +49,11 @@
                 <p class="text-lg text-[#797984] font-normal">Check-Out: 2024-11-22</p>
               </div>
               <div>
-                <Link href="/flight-details" class="rounded-full bg-[#014F99] w-28  md:w-30 mt-2 h-7  p-2  flex gap-2 text-xs font-semibold text-white">
+                <a href="https://www.ginosar.co.il/?reffrom=gmb&utm_source=google_my_business&utm_medium=organic&utm_campaign=googlemybusiness" class="rounded-full bg-[#014F99] w-28  md:w-30 mt-2 h-7  p-2  flex gap-2 text-xs font-semibold text-white">
                 <img src="images/visitIcon.png" alt="">
                <h1>Visit Website</h1>
                
-                </Link>
+                </a>
               <div class="flex justify-between mt-24 md:mt-14">
               <img src="images/Star.png">
               <img src="images/Star.png">
@@ -77,11 +77,11 @@
                 <p class="text-lg text-[#797984] font-normal">Check-Out: 2024-11-26</p>
               </div>
               <div>
-                <Link href="/flight-details" class="rounded-full bg-[#014F99] w-28 md:w-30 mt-8 md:mt-2 h-7  p-2  flex gap-2 text-xs font-semibold text-white">
+                <a href="https://www.travelweekly.com/Hotels/Jerusalem/Dan-Jerusalem-Hotel-p3717145" class="rounded-full bg-[#014F99] w-28 md:w-30 mt-8 md:mt-2 h-7  p-2  flex gap-2 text-xs font-semibold text-white">
                 <img src="images/visitIcon.png" alt="">
                <h1>Visit Website</h1>
                
-                </Link>
+                </a>
               <div class="flex justify-between mt-14">
               <img src="images/Star.png">
               <img src="images/Star.png">
