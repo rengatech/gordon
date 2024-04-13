@@ -15,7 +15,7 @@
                             <button
                                 class="rounded-full bg-[#014F99] w-26 h-8 mt-5  md:w-28 md:h-8 md:mt-1 font-extrabold p-2 text-xs flex  gap-2  text-white">
                                 <img src="images/download.png" class="">
-                                <h1>Pdf Version</h1>
+                                <a href="/Gordon.pdf" target="_blank">Pdf Version</a>
                             </button>
 
                         </div>
